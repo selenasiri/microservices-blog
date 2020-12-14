@@ -15,14 +15,14 @@ spec:
     spec:
       containers:
         - name: posts
-          image: selenasiri/m-posts:1.0
+          image: yinglu91/m-posts
 ---
 apiVersion: v1
 kind: Service
-metadata;
+metadata:
   name: posts-srv
   namespace: dev-01
-spec: 
+spec:
   selector:
     app: posts
   ports:
