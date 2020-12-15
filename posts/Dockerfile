@@ -7,3 +7,5 @@ COPY ./ ./
 
 EXPOSE 4000
 CMD ["npm", "run", "start"]
+
+# $ docker build -t selenasiri/m-posts:1.0 .

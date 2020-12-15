@@ -7,3 +7,5 @@ COPY ./ ./
 
 EXPOSE 4005
 CMD ["npm", "run", "start"]
+
+# $ docker build -t selenasiri/m-event-bus:1.0 .
