@@ -14,5 +14,6 @@ spec:
   selector:
     app: posts
 
+# In terminal:
 # kubectl apply -f name.yaml
 # kubectl create namespace dev-01
